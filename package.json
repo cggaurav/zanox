@@ -1,0 +1,17 @@
+{
+  "author": {
+    "name": "Gaurav C",
+  },
+  "name": "zanox",
+  "version": "1.0.0",
+  "dependencies": {
+    "hat": "0.0.3",
+    "underscore": "1.4.4",
+    "async": "0.2.8"
+  },
+  "main": "lib/zanox",
+  "readme": "Zanox Api written in JS|Node\n=================================\n\nThis is an Api to access [Zanox](http://www.zanox.com/) with nodejs.\n\nInstallation\n------------\n\n    npm install zanox\n\nUsage\n-----\n\n```coffeescript\nZanox = require 'Zanox'\nzanox = Zanox connectId, secretKey\nzanox.getProgramsOfAdspace id, {items: 50}, (err, data) ->\n    return console.error err if err?\n    console.log '%j', data\n```\n",
+  "_id": "zanox@1.0.1",
+  "description": "Zanox Api written in JS|Node =================================",
+  "_from": "zanox"
+}
