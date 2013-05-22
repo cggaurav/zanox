@@ -18,7 +18,7 @@ var zanox_req, params, zanox;
 
 zanox_req = require('zanox_js');
 
-zanox = zanox_req("52D8E7B48B9A34ED7941", "c0923f577D074C+fa0caa6e2890944/B355aFc45");
+zanox = zanox_req(API_KEY, SHARED_SECRET);
 
 params = {
   datetype: 'modifiedDate',
